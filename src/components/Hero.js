@@ -54,7 +54,7 @@ const Hero = () => {
             className="hero-title"
             variants={itemVariants}
           >
-            <span className="gradient-text">Mohammad Ali</span>
+            <span className="gradient-text">Ayesha Latif</span>
             <br />
             Mobile Developer
           </motion.h1>
@@ -73,7 +73,7 @@ const Hero = () => {
             variants={itemVariants}
           >
             <motion.a
-              href="/my_cv/FD_Resume_M_Ali.pdf"
+              href="/my_cv/Ayesha new.pdf"
               download
               className="btn btn-primary"
               whileHover={{ scale: 1.05 }}
@@ -96,7 +96,7 @@ const Hero = () => {
             variants={itemVariants}
           >
             <motion.a
-              href="https://github.com/MohammadAlieye"
+              href="https://github.com/aiqalatif"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.2, y: -5 }}
@@ -105,7 +105,7 @@ const Hero = () => {
               <span>GitHub</span>
             </motion.a>
             <motion.a
-              href="https://www.linkedin.com/in/mohammad-alee/"
+              href="https://www.linkedin.com/in/ayesha-latif-4b2034221/"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.2, y: -5 }}
@@ -113,15 +113,7 @@ const Hero = () => {
             >
               <span>LinkedIn</span>
             </motion.a>
-            <motion.a
-              href="https://linktr.ee/MohammadAliEye"
-              target="_blank"
-              rel="noopener noreferrer"
-              whileHover={{ scale: 1.2, y: -5 }}
-              whileTap={{ scale: 0.9 }}
-            >
-              <span>Linktree</span>
-            </motion.a>
+          
           </motion.div>
         </motion.div>
 
@@ -148,7 +140,7 @@ const Hero = () => {
                 </div>
                 <div className="code-line indent">
                   <span className="code-keyword">String</span> name ={' '}
-                  <span className="code-string">"Mohammad Ali"</span>;
+                  <span className="code-string">"Ayesha Latif"</span>;
                 </div>
                 <div className="code-line indent">
                   <span className="code-keyword">String</span> role ={' '}

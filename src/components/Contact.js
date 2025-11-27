@@ -28,7 +28,7 @@ const Contact = () => {
     // Create email subject and body
     const subject = encodeURIComponent(`Contact from Portfolio - ${formData.name}`);
     const body = encodeURIComponent(
-      `Hello Mohammad Ali,\n\n` +
+      `Hello Ayesha Latif,\n\n` +
       `My name is: ${formData.name}\n` +
       `My email is: ${formData.email}\n\n` +
       `Message:\n${formData.message}\n\n` +
@@ -54,33 +54,28 @@ const Contact = () => {
     {
       name: 'Email',
       icon: <FaEnvelope />,
-      url: 'mailto:mohammadaliwork6056@gmail.com',
+      url: 'mailto:ayeshalatif55566@gmail.com',
       color: '#EA4335',
     },
     {
       name: 'Phone',
       icon: <FaPhone />,
-      url: 'tel:+9230186056021',
+      url: 'tel:+923039904026',
       color: '#25D366',
     },
     {
       name: 'LinkedIn',
       icon: <FaLinkedin />,
-      url: 'https://www.linkedin.com/in/mohammad-alee/',
+      url: 'https://www.linkedin.com/in/ayesha-latif-4b2034221/',
       color: '#0077B5',
     },
     {
       name: 'GitHub',
       icon: <FaGithub />,
-      url: 'https://github.com/MohammadAlieye',
+      url: 'https://github.com/aiqalatif',
       color: '#333',
     },
-    {
-      name: 'Linktree',
-      icon: <FaLink />,
-      url: 'https://linktr.ee/MohammadAliEye',
-      color: '#43E55E',
-    },
+    
   ];
 
   return (
@@ -115,8 +110,8 @@ const Contact = () => {
               opportunities to be part of your vision.
             </p>
             <div className="contact-details">
-              <p><strong>Email:</strong> mohammadaliwork6056@gmail.com</p>
-              <p><strong>Phone:</strong> +92 30186056021</p>
+              <p><strong>Email:</strong> ayeshalatif55566@gmail.com</p>
+              <p><strong>Phone:</strong> +92 3039904026</p>
             </div>
 
             <div className="social-links">

@@ -7,7 +7,7 @@ import './Skills.css';
 const Skills = () => {
   const skills = [
     { name: 'Flutter', icon: <SiFlutter />, level: 95, color: '#02569B' },
-    { name: 'React Native', icon: <SiReact />, level: 90, color: '#61DAFB' },
+    
     { name: 'Dart', icon: <SiDart />, level: 90, color: '#0175C2' },
     { name: 'Firebase', icon: <SiFirebase />, level: 85, color: '#FFCA28' },
     { name: 'Mobile Development', icon: <FaMobile />, level: 90, color: '#4CAF50' },

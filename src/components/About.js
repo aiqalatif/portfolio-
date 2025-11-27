@@ -51,7 +51,7 @@ const About = () => {
         >
           <motion.div className="about-text" variants={itemVariants}>
             <p>
-              I'm a passionate <strong>Mobile Developer</strong> with expertise in <strong>Flutter</strong> and <strong>React Native</strong>, dedicated to creating
+              I'm a passionate <strong>Mobile Developer</strong> with expertise in <strong>Flutter</strong> , dedicated to creating
               beautiful, performant, and user-friendly mobile applications. With a keen
               eye for design and a love for clean code, I transform ideas into
               exceptional digital experiences.
@@ -75,7 +75,7 @@ const About = () => {
               whileHover={{ scale: 1.05, y: -5 }}
               transition={{ type: 'spring', stiffness: 300 }}
             >
-              <div className="stat-number">50+</div>
+              <div className="stat-number">15+</div>
               <div className="stat-label">Projects</div>
             </motion.div>
             <motion.div
@@ -83,7 +83,7 @@ const About = () => {
               whileHover={{ scale: 1.05, y: -5 }}
               transition={{ type: 'spring', stiffness: 300 }}
             >
-              <div className="stat-number">4</div>
+              <div className="stat-number">3</div>
               <div className="stat-label">Years Experience</div>
             </motion.div>
             <motion.div

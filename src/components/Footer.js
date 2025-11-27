@@ -18,7 +18,7 @@ const Footer = () => {
         >
           <div className="footer-text">
             <p>
-              Made with <FaHeart className="heart-icon" /> by Mohammad Ali
+              Made with <FaHeart className="heart-icon" /> by Ayesha Latif
             </p>
             <p className="copyright">
               © {currentYear} All rights reserved.
@@ -26,7 +26,7 @@ const Footer = () => {
           </div>
           <div className="footer-social">
             <motion.a
-              href="https://github.com/MohammadAlieye"
+              href="https://github.com/aiqalatif"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.2, y: -5 }}
@@ -36,7 +36,7 @@ const Footer = () => {
               <FaGithub />
             </motion.a>
             <motion.a
-              href="https://www.linkedin.com/in/mohammad-alee/"
+              href="https://www.linkedin.com/in/ayesha-latif-4b2034221/"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.2, y: -5 }}
@@ -46,7 +46,7 @@ const Footer = () => {
               <FaLinkedin />
             </motion.a>
             <motion.a
-              href="mailto:mohammadalieye@gmail.com"
+              href="mailto:ayeshalatif55566@gmail.com"
               whileHover={{ scale: 1.2, y: -5 }}
               whileTap={{ scale: 0.9 }}
               aria-label="Email"

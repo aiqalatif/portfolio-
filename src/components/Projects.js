@@ -9,7 +9,7 @@ const Projects = () => {
       title: 'Digestrack',
       description: 'A comprehensive iOS app for tracking and managing digestive health. Features include meal logging, symptom tracking, and personalized health insights.',
       tech: ['Flutter', 'iOS', 'Dart', 'Health Tracking'],
-      github: 'https://github.com/MohammadAlieye',
+      github: 'https://github.com/aiqalatif',
       demo: 'https://apps.apple.com/es/app/digestrack/id6740924621?l=en-GB',
       image: '📱',
     },
@@ -17,31 +17,40 @@ const Projects = () => {
       title: 'Baraka',
       description: 'A financial technology mobile application available on Android. Provides investment and financial management services with a user-friendly interface.',
       tech: ['Flutter', 'Android', 'Firebase', 'FinTech'],
-      github: 'https://github.com/MohammadAlieye',
+      github: 'https://github.com/aiqalatif',
       demo: 'https://play.google.com/store/apps/details?id=com.baraka.user&hl=en_US',
       image: '💰',
     },
-    {
-      title: 'SalahMate',
-      description: 'A web application designed to help Muslims track prayer times, Qibla direction, and manage their daily prayers with accurate location-based services.',
-      tech: ['Flutter', 'Web', 'Location Services', 'Prayer Times'],
-      github: 'https://github.com/MohammadAlieye',
-      demo: 'https://salahmate.com/',
-      image: '🕌',
-    },
-    {
-      title: 'Mealsmash',
-      description: 'A modern web platform for meal planning, recipe discovery, and nutrition tracking. Helps users create healthy meal plans and discover new recipes.',
-      tech: ['Flutter', 'Web', 'Nutrition API', 'Meal Planning'],
-      github: 'https://github.com/MohammadAlieye',
-      demo: 'https://mealsmash.com/',
-      image: '🍽️',
-    },
+     {
+    title: 'PowerTracker',
+    description: 'A cross-platform mobile application developed with Flutter that provides users with seamless experience to view billing portals and external content securely within the app. Features secure WebView integration, monetization through Google AdMob, and optimized for fast performance.',
+    tech: ['Flutter', 'React', 'React Native', 'Redux', 'Firebase', 'REST APIs', 'Push Notifications', 'Geolocation', 'Google AdMob'],
+    github: 'https://github.com/aiqalatif',
+    demo: 'https://play.google.com/store/apps/details?id=com.billingcheck.app&hl=en',
+    image: '⚡',
+    period: 'Feb 2023 - Nov 2023'
+  },
+  {
+    title: 'Fidarii',
+    description: 'Developed a cross-platform service booking app for Android and iOS featuring a multi-level selection process. The app integrates real-time features like date/time slot selection, Google Maps, and in-app chat.',
+    tech: ['Flutter', 'REST APIs', 'Node.js', 'Firebase', 'Stripe API'],
+    github: 'https://github.com/aiqalatif',
+    demo: 'https://apps.apple.com/pk/app/fidarii/id6740487752',
+    image: '📱'
+  },
+  {
+    title: 'Myth Fit',
+    description: 'An AI-powered fitness app that generates personalized workout plans tailored to your goals, equipment, and fitness level. It provides video-guided exercises and adapts your training plan over time.',
+    tech: ['Flutter', 'Dart', 'Provider', 'Firebase', 'Firestore', 'Firebase Authentication'],
+    github: 'https://github.com/aiqalatif',
+    demo: 'https://mythfit.app/',
+    image: '💪'
+  },
     {
       title: 'Rel8',
       description: 'A social networking mobile application for Android. Enables users to connect, share experiences, and build meaningful relationships in their community.',
       tech: ['Flutter', 'Android', 'Social Networking', 'Real-time Chat'],
-      github: 'https://github.com/MohammadAlieye',
+      github: 'https://github.com/aiqalatif',
       demo: 'https://play.google.com/store/apps/details?id=com.rel8.app&hl=en',
       image: '🤝',
     },
@@ -115,7 +124,7 @@ const Projects = () => {
                   ))}
                 </div>
                 <div className="project-links">
-                  {project.github && project.github !== 'https://github.com/MohammadAlieye' && (
+                  {project.github && project.github !== 'https://github.com/aiqalatif' && (
                     <motion.a
                       href={project.github}
                       target="_blank"
