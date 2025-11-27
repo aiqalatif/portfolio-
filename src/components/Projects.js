@@ -24,7 +24,7 @@ const Projects = () => {
      {
     title: 'PowerTracker',
     description: 'A cross-platform mobile application developed with Flutter that provides users with seamless experience to view billing portals and external content securely within the app. Features secure WebView integration, monetization through Google AdMob, and optimized for fast performance.',
-    tech: ['Flutter', 'React', 'React Native', 'Redux', 'Firebase', 'REST APIs', 'Push Notifications', 'Geolocation', 'Google AdMob'],
+    tech: ['Flutter',  'Firebase', 'REST APIs',  'Google AdMob'],
     github: 'https://github.com/aiqalatif',
     demo: 'https://play.google.com/store/apps/details?id=com.billingcheck.app&hl=en',
     image: '⚡',
