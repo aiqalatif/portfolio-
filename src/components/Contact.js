@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { FaEnvelope, FaLinkedin, FaGithub, FaLink, FaPaperPlane, FaCheckCircle, FaPhone } from 'react-icons/fa';
+import { FaEnvelope, FaLinkedin, FaGithub, FaLink, FaPaperPlane, FaCheckCircle } from 'react-icons/fa';
 import './Contact.css';
 
 const Contact = () => {
@@ -58,12 +58,6 @@ const Contact = () => {
       color: '#EA4335',
     },
     {
-      name: 'Phone',
-      icon: <FaPhone />,
-      url: 'tel:+923039904026',
-      color: '#25D366',
-    },
-    {
       name: 'LinkedIn',
       icon: <FaLinkedin />,
       url: 'https://www.linkedin.com/in/ayesha-latif-4b2034221/',
@@ -111,7 +105,6 @@ const Contact = () => {
             </p>
             <div className="contact-details">
               <p><strong>Email:</strong> ayeshalatif55566@gmail.com</p>
-              <p><strong>Phone:</strong> +92 3039904026</p>
             </div>
 
             <div className="social-links">
