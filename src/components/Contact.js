@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { FaEnvelope, FaLinkedin, FaGithub, FaLink, FaPaperPlane, FaCheckCircle } from 'react-icons/fa';
+import { FaEnvelope, FaLinkedin, FaGithub, FaPaperPlane, FaCheckCircle } from 'react-icons/fa';
 import './Contact.css';
 
 const Contact = () => {

@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import React from 'react';
 import { FaCode, FaGitAlt, FaMobile } from 'react-icons/fa';
-import { SiDart, SiFirebase, SiFlutter, SiReact } from 'react-icons/si';
+import { SiDart, SiFirebase, SiFlutter } from 'react-icons/si';
 import './Skills.css';
 
 const Skills = () => {
